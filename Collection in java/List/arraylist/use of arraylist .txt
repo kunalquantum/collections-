@@ -1,0 +1,39 @@
+Why arraylist over array?
+1. arrays have the predefined size so we need a scalable so it is not efficient 
+hence we use arraylist which is use to create the dynamic array 
+
+Dynamic Size:
+
+ArrayList: It dynamically resizes itself, allowing you to add or remove elements easily without worrying about the size. This dynamic sizing is handled internally, making it convenient to work with collections that may change in size.
+
+Array: Arrays have a fixed size once declared, and changing the size requires creating a new array and copying elements, which can be cumbersome.
+
+Ease of Use:
+
+ArrayList: Provides a set of convenient methods for adding, removing, and manipulating elements, such as add, remove, get, and more. It's part of the Java Collections Framework, offering powerful utility methods.
+
+Array: Requires manual manipulation for adding or removing elements. You need to manage the size and handle these operations manually.
+
+Automatic Resizing:
+
+ArrayList: It automatically handles resizing as needed. When the capacity is reached, it doubles its size, ensuring efficient memory management.
+
+Array: You need to manage resizing manually, which can lead to inefficient memory usage or errors if not done correctly.
+
+Generic Types:
+
+ArrayList: Supports generics, allowing you to create ArrayLists of specific types (e.g., ArrayList<Integer>, ArrayList<String>), providing type safety.
+
+Array: Does not provide built-in support for generics, making it more error-prone if you need to ensure type safety.
+
+Flexibility:
+
+ArrayList: Offers flexibility in terms of adding, removing, or manipulating elements at various positions. It has built-in methods for such operations.
+
+Array: More rigid in terms of size and requires manual effort for operations like insertion or deletion.
+
+Compatibility with Other Collections:
+
+ArrayList: Part of the Java Collections Framework, making it compatible with other collection classes and interfaces. You can easily convert it to other collection types.
+
+Array: Lacks built-in compatibility with other collection classes and may require more effort for conversions.
